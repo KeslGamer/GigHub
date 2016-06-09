@@ -28,6 +28,11 @@ span.field-validation-error {
     font-weight: bold;
 }
 
+select.form-control {
+    padding: 5px 15px;
+    height: 37px
+}
+
 /* Bootstrap Overrides */
 
 .navbar-inverse {
@@ -35,17 +40,17 @@ span.field-validation-error {
     border-color: #ff4342;
 }
 
-    .navbar-inverse .navbar-brand {
-        color: #ffffff;
-    }
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
 
-    .navbar-inverse .navbar-nav > li > a {
-        color: #ffffff;
-    }
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
 
-    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:hover {
-        background-color: rgba(205, 40, 39, 0.55);
-    }
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: rgba(205, 40, 39, 0.55);
+}
 
 .navbar-brand {
     font-weight: 700;
@@ -62,6 +67,7 @@ span.field-validation-error {
 }
 
 body {
+    font-size: 17px;
 }
 
 body,
