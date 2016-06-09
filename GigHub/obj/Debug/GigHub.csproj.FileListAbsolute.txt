@@ -75,3 +75,9 @@ H:\dev\GigHub\GigHub\obj\Debug\GigHub.Migrations.PopulateGenresTable.resources
 H:\dev\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddForeignKeyPropertiesToGig.resources
 H:\dev\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNameToApplicationUser.resources
 H:\dev\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddAttendance.resources
+H:\dev\GigHub\GigHub\bin\System.Net.Http.Formatting.dll
+H:\dev\GigHub\GigHub\bin\System.Web.Http.dll
+H:\dev\GigHub\GigHub\bin\System.Web.Http.WebHost.dll
+H:\dev\GigHub\GigHub\bin\System.Net.Http.Formatting.xml
+H:\dev\GigHub\GigHub\bin\System.Web.Http.xml
+H:\dev\GigHub\GigHub\bin\System.Web.Http.WebHost.xml
