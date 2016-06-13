@@ -33,6 +33,26 @@ select.form-control {
     height: 37px
 }
 
+.voffset {
+    margin-top: 2px;
+}
+.voffset1 {
+    margin-top: 5px;
+}
+.voffset2 {
+    margin-top: 10px;
+}
+.voffset3 {
+    margin-top: 20px;
+}
+.voffset4 {
+    margin-top: 40px;
+}
+.voffset5 {
+    margin-top: 80px;
+}
+
+
 /* Bootstrap Overrides */
 
 .navbar-inverse {
