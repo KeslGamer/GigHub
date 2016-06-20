@@ -48,6 +48,23 @@ namespace GigHub.Controllers
         }
 
         [Authorize]
+        public ActionResult Following()
+        {
+            var userId = User.Identity.GetUserId();
+            var following = _context.Followings
+                .Where(a => a.FolloweeId == userId)
+                .Select(n => n.Followee)
+                .Include(n => n.Name)
+                .ToList();
+
+            var viewModel = new FollowingViewModel
+            {
+                Following = following
+            };
+            return View(viewModel);
+        }
+
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(GigFormViewModel viewModel)
